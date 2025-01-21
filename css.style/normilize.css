@@ -136,16 +136,10 @@
    line-height: 1.5;
  }
  
- /**
-   Нормализация высоты элемента ссылки при его инспектировании в DevTools
-  */
  a:where([class]) {
    display: inline-flex;
  }
  
- /**
-   Курсор-рука при наведении на элемент
-  */
  button,
  label {
    cursor: pointer;
