@@ -81,7 +81,8 @@ a {
 
 .services__lists {
     display: flex;
-    overflow: hidden;
+    overflow: scroll;
+    overflow-y: hidden;
     margin-inline: 16px;
 }
 
